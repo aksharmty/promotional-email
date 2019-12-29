@@ -1,0 +1,62 @@
+body {
+	font: normal 11px verdana;
+	}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 210px; /* Width of Menu Items */
+	border-bottom: 1px solid #ccc;
+	}
+	
+#nav ul ul
+{display: none;
+background:#000000;
+}
+#nav a:hover {
+color: white;
+background: #000000;
+}
+#nav a {
+	color: white;
+	text-decoration: none;
+	background-color: #287BB2;
+}
+#nav a {
+font: bold 13px/20px arial, helvetica, sans-serif;
+display: block;
+border-width: 1px;
+border-style: solid;
+border-color: #ccc #888 #555 #bbb;
+margin: 0;
+padding: 4px 5px;
+}
+ul li {
+	position: relative;
+	}
+	
+li ul {
+	position: absolute;
+	left: 209px; /* Set 1px less than menu width */
+	top: 0;
+	display: none;
+	}
+
+/* Styles for Menu Items */
+ul li a {
+	display: block;
+	text-decoration: none;
+	color: #777;
+	background: #fff; /* IE6 Bug */
+	padding: 5px;
+	border: 1px solid #ccc; /* IE6 Bug */
+	border-bottom: 0;
+	}
+	
+/* Holly Hack. IE Requirement \*/
+* html ul li { float: left; height: 1%; }
+* html ul li a { height: 1%; }
+/* End */
+
+li:hover ul, li.over ul { display: block; } /* The magic */
