@@ -1,7 +1,7 @@
 Send promotional email from your cpanel sharing hosting and grow your businees.
 you can send email 1 email every 10 minute.
 Requirement :
-smtp enable hosting account ( I use sharing hosting from <a href="https://shop.sakhihosting.in/web-hosting/index.php">sakhi hosting</a> )
+smtp enable hosting account ( I use sharing hosting from <a href="https://shop.sakhihosting.in/web-hosting/index.php"> sakhi hosting</a> )
 php5.6 and above.
 mysql myphpadmin.
 cronjob
